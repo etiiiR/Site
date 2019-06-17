@@ -6,6 +6,7 @@ import './registerServiceWorker'
 
 Vue.config.productionTip = false;
 Vue.use(Argon);
+
 new Vue({
   router,
   render: h => h(App)

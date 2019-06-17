@@ -77,5 +77,15 @@
 <script>
 export default {};
 </script>
-<style>
+
+
+
+<style lang="scss" scoped>
+
+.section-lg {
+    padding-top: 27vh;
+    padding-bottom: 23vh;
+    overflow: hidden;
+    height: 100vh;
+}
 </style>

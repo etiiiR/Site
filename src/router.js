@@ -46,7 +46,6 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Register,
-        footer: AppFooter
       }
     },
     {
@@ -59,7 +58,7 @@ export default new Router({
         children: [
           {
             name: 'timeline',
-            path: '/profile/prof',
+            path: '/profile/timeline',
             component: text
           },
           {

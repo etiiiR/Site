@@ -27,9 +27,9 @@
                                 <div class="card-profile-stats d-flex justify-content-center">
                                     <div class="col-lg-4 order-lg-1">
                                 <div class="card-profile-stats d-flex justify-content-center">
-                                    <base-button type="primary" size="sm" class="float-left">LEBENSLAUF</base-button>
-                                    <base-button type="danger" size="sm" class="float-left">KENNTNISSE</base-button>
-                                    <base-button type="warning" size="sm" class="float-left">PROJEKTE</base-button>
+                                    <base-button @click="go('to_lebenslauf')" type="primary" size="sm" class="float-left">LEBENSLAUF</base-button>
+                                    <base-button @click="go('to_Kenntnisse')" type="danger" size="sm" class="float-left">KENNTNISSE</base-button>
+                                    <base-button @click="('to_Projekt')" type="warning" size="sm" class="float-left">PROJEKTE</base-button>
                                 </div>
                             </div>
                                 </div>
@@ -69,8 +69,17 @@ export default {
   methods: { 
       download_cv: function () {
              
+      },
+      go: function (param) {
+          if(param === 'to_lebenslauf') {
+              this.$router.push('/profile/timeline')
+          } else if (param === 'to_Projekt') {
+
+          } else if (param === 'to_Kenntnisse') {
+
           }
       }
+    }
   };
 </script>
 <style>
