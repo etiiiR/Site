@@ -49,7 +49,7 @@
                 <base-dropdown tag="li" class="nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-collection d-lg-none"></i>
-                        <span class="nav-link-inner--text">Examples</span>
+                        <span class="nav-link-inner--text">Pages</span>
                     </a>
                     <router-link to="/landing" class="dropdown-item">Landing</router-link>
                     <router-link to="/profile" class="dropdown-item">Profile</router-link>
@@ -104,9 +104,9 @@ export default {
   methods: { 
       router: function (event) {
           if (event === 'route_1') {
-              this.$router.push('register')
-          } else {
-              
+              this.$router.push('profile')
+          } else if (event === 'route_2') {
+              this.$router.push('dashboard')
           }
       }
   }

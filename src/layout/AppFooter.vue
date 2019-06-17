@@ -8,7 +8,7 @@
                        data-original-title="Follow us">
                         <i class="fa fa-twitter"></i>
                     </a>
-                    <a target="_blank" rel="noopener" href="https://www.facebook.com/creativetim"
+                    <a target="_blank" rel="noopener" href="https://www.facebook.com/roetii"
                        class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg" data-toggle="tooltip"
                        data-original-title="Like us">
                         <i class="fa fa-facebook-square"></i>
@@ -30,17 +30,14 @@
                 <div class="col-md-6">
                     <div class="copyright">
                         &copy; {{year}}
-                        <a href="https://www.creative-tim.com" target="_blank" rel="noopener">Creative Tim</a> & <a href="https://www.binarcode.com" target="_blank" rel="noopener">Binar Code</a>
+                        <a href="https://www.creative-tim.com" target="_blank" rel="noopener">Etienne Roulet</a> 
                     </div>
                 </div>
                 <div class="col-md-6">
                     <ul class="nav nav-footer justify-content-end">
                         <li class="nav-item">
-                            <a href="https://www.creative-tim.com" class="nav-link" target="_blank" rel="noopener">Creative Tim</a>
-                        </li>
-                        <li class="nav-item">
                             <a href="https://www.creative-tim.com/presentation" class="nav-link" target="_blank" rel="noopener">About
-                                Us</a>
+                                Me</a>
                         </li>
                         <li class="nav-item">
                             <a href="http://blog.creative-tim.com" class="nav-link" target="_blank" rel="noopener">Blog</a>

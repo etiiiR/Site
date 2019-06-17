@@ -16,19 +16,19 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "components",
-      components: {
-        header: AppHeader,
-        default: Components,
-        footer: AppFooter
-      }
-    },
-    {
-      path: "/landing",
       name: "landing",
       components: {
         header: AppHeader,
         default: Landing,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/components",
+      name: "components",
+      components: {
+        header: AppHeader,
+        default: Components,
         footer: AppFooter
       }
     },
@@ -38,7 +38,6 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Login,
-        footer: AppFooter
       }
     },
     {
@@ -52,7 +51,6 @@ export default new Router({
     },
     {
       path: "/profile",
-      name: "profile",
       components: {
         header: AppHeader,
         default: Profile,
