@@ -10,12 +10,17 @@
   "dependencies": {
     "bootstrap-vue": "^2.0.0-rc.11",
     "flatpickr": "^4.5.1",
+    "framework7": "^4.4.3",
+    "framework7-vue": "^4.4.3",
     "nouislider": "^11.1.0",
     "register-service-worker": "^1.5.2",
     "vue": "^2.6.6",
+    "vue-blu": "^0.1.9",
+    "vue-custom-scrollbar": "^1.0.0",
     "vue-flatpickr-component": "^8.1.1",
     "vue-lazyload": "^1.2.6",
     "vue-router": "^3.0.2",
+    "vue2-scrollbar": "0.0.3",
     "vue2-transitions": "^0.2.3"
   },
   "devDependencies": {

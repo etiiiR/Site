@@ -20,7 +20,7 @@
                             <div class="col-lg-4 order-lg-3 text-lg-right align-self-lg-center">
                                 <div class="card-profile-actions py-4 mt-lg-0">
                                     <base-button type="info" size="sm" class="mr-4">Connect</base-button>
-                                    <base-button type="default" size="sm" class="float-right">Contact ME</base-button>
+                                    <base-button @click="mail" type="default" size="sm" class="float-right">contact me</base-button>
                                 </div>
                             </div>
                             <div class="col-lg-4 order-lg-1">
@@ -29,7 +29,7 @@
                                 <div class="card-profile-stats d-flex justify-content-center">
                                     <base-button @click="go('to_lebenslauf')" type="primary" size="sm" class="float-left">LEBENSLAUF</base-button>
                                     <base-button @click="go('to_Kenntnisse')" type="danger" size="sm" class="float-left">KENNTNISSE</base-button>
-                                    <base-button @click="('to_Projekt')" type="warning" size="sm" class="float-left">PROJEKTE</base-button>
+                                    <base-button @click="go('to_Projekt')" type="warning" size="sm" class="float-left">PROJEKTE</base-button>
                                 </div>
                             </div>
                                 </div>
@@ -74,14 +74,46 @@ export default {
           if(param === 'to_lebenslauf') {
               this.$router.push('/profile/timeline')
           } else if (param === 'to_Projekt') {
-
+              this.$router.push('/profile/projekte')
           } else if (param === 'to_Kenntnisse') {
-
+              this.$router.push('/profile/kenntnisse')
           }
+      },
+      mail: function () {
+          document.location.href = "mailto: ask@roulet.ch"
       }
     }
   };
 </script>
-<style>
+
+
+<style lang="scss">
+.section-profile-cover {
+ height: 470px;
+}
+/* Customize website's scrollbar like Mac OS
+Not supports in Firefox and IE */
+
+/* total width */
+body::-webkit-scrollbar {
+    background-color:#fff;
+    width:16px
+}
+
+/* background of the scrollbar except button or resizer */
+body::-webkit-scrollbar-track {
+    background-color:#fff
+}
+
+/* scrollbar itself */
+body::-webkit-scrollbar-thumb {
+    background-color:#babac0;
+    border-radius:16px;
+    border:4px solid #fff
+}
+
+/* set button(top and bottom of the scrollbar) */
+body::-webkit-scrollbar-button {display:none}
 </style>
+
 

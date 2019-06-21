@@ -67,7 +67,11 @@ export default new Router({
             component: text
           },
           {
-            path: '/profile/timeline2',
+            path: '/profile/kenntnisse',
+            component: AppFooter
+          },
+          {
+            path: '/profile/Projekte',
             component: AppFooter
           }
         ]
