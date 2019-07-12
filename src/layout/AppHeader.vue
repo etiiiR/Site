@@ -23,7 +23,7 @@
                         <span class="nav-link-inner--text">Components</span>
                     </a>
                     <div class="dropdown-menu-inner">
-                        <a 
+                        <a style="cursor: pointer;" 
                          @click="router(event='route_1')"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
@@ -34,7 +34,7 @@
                                 <p class="description d-none d-md-inline-block mb-0">Hier geht es zu dem Portfolio von Etienne Roulet.</p>
                             </div>
                         </a>
-                        <a @click="router(event='route_2')" 
+                        <a style="cursor: pointer;" @click="router(event='route_2')" 
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
                                 <i class="ni ni-ui-04"></i>

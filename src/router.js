@@ -8,6 +8,9 @@ import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
 import Profile from "./views/Profile.vue";
 import text from "./views/components/text.vue";
+import kenntnisse from "./views/components/Kenntnisse.vue";
+import projekte from "./views/components/Projekte.vue";
+
 
 Vue.use(Router);
 
@@ -44,8 +47,7 @@ export default new Router({
       path: "/register",
       name: "register",
       components: {
-        header: AppHeader,
-        default: Register,
+        default: projekte,
       }
     },
     {
@@ -68,11 +70,11 @@ export default new Router({
           },
           {
             path: '/profile/kenntnisse',
-            component: AppFooter
+            component: kenntnisse
           },
           {
             path: '/profile/Projekte',
-            component: AppFooter
+            component: projekte
           }
         ]
     }

@@ -23,4 +23,8 @@ export default {
 .navbar-nav .nav-link {
   font-size: 1.1rem;
 }
+
+.section-profile-cover {
+  height: 480px;
+}
 </style>
