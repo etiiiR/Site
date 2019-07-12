@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Etienne-Roulet-Portfolio/precache-manifest.d26f14d9d3a16b7733eb7fae08cb906d.js"
+  "/precache-manifest.67cb99100147f9ad08a8adba3ad4af23.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "vue-argon-design-system"});
