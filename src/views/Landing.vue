@@ -20,7 +20,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <h1 class="display-3  text-white">Portfolio Website
-                                    <span>Herzlich willkommen</span>
+                                    <span>Welcome</span>
                                 </h1>
                             </div>
                         </div>
@@ -38,13 +38,13 @@
                                 <card class="border-0" hover shadow body-classes="py-5">
                                     <icon name="ni ni-check-bold" type="primary" rounded class="mb-4">
                                     </icon>
-                                    <h6 class="text-primary text-uppercase">Download Argon</h6>
-                                    <p class="description mt-3">Argon is a great free UI package based on Bootstrap 4
-                                        that includes the most important components and features.</p>
+                                    <h6 class="text-primary text-uppercase">My Products</h6>
+                                    <p class="description mt-3">Intressted in the technology behind it and the functional, pratical and social interactions.</p>
                                     <div>
                                         <badge type="primary" rounded>design</badge>
                                         <badge type="primary" rounded>system</badge>
                                         <badge type="primary" rounded>creative</badge>
+                                        <badge type="primary" rounded>fullstack</badge>
                                     </div>
                                     <base-button tag="a" href="#" type="primary" class="mt-4">
                                         Learn more
@@ -55,9 +55,8 @@
                                 <card class="border-0" hover shadow body-classes="py-5">
                                     <icon name="ni ni-istanbul" type="success" rounded class="mb-4">
                                     </icon>
-                                    <h6 class="text-success text-uppercase">Build Something</h6>
-                                    <p class="description mt-3">Argon is a great free UI package based on Bootstrap
-                                        4 that includes the most important components and features.</p>
+                                    <h6 class="text-success text-uppercase">My Projects</h6>
+                                    <p class="description mt-3">Here can you find all my Frontend Backend and Fullstack projects at the time...</p>
                                     <div>
                                         <badge type="success" rounded>business</badge>
                                         <badge type="success" rounded>vision</badge>
@@ -72,9 +71,8 @@
                                 <card class="border-0" hover shadow body-classes="py-5">
                                     <icon name="ni ni-planet" type="warning" rounded class="mb-4">
                                     </icon>
-                                    <h6 class="text-warning text-uppercase">Prepare Launch</h6>
-                                    <p class="description mt-3">Argon is a great free UI package based on Bootstrap
-                                        4 that includes the most important components and features.</p>
+                                    <h6 class="text-warning text-uppercase">About Me</h6>
+                                    <p class="description mt-3">I am a professional Software Developer born and based in switzerland 1998 and semi Professional UX and UI Builder.</p>
                                     <div>
                                         <badge type="warning" rounded>marketing</badge>
                                         <badge type="warning" rounded>product</badge>

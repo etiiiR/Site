@@ -62,5 +62,8 @@ export default {
   }
 };
 </script>
-<style>
+<style lang="scss" scoped>
+.footer.has-cards {
+    padding-top: 46vh;
+}
 </style>
